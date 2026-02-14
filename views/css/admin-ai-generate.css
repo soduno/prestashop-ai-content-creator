@@ -1,0 +1,103 @@
+.soduno-ai-generate-wrapper {
+  margin: 10px 0 16px;
+}
+
+#product_description .soduno-ai-generate-wrapper {
+  margin-top: -40px;
+}
+
+.soduno-ai-generate-button {
+  min-width: 140px;
+}
+
+.soduno-ai-generate-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.soduno-ai-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(33, 37, 41, 0.45);
+  z-index: 1040;
+}
+
+.soduno-ai-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 92%;
+  max-width: 520px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.2);
+  z-index: 1050;
+  overflow: hidden;
+}
+
+.soduno-ai-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6eaee;
+  padding: 14px 16px;
+}
+
+.soduno-ai-modal-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.soduno-ai-close {
+  border: 0;
+  background: transparent;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.soduno-ai-modal-body {
+  padding: 16px;
+}
+
+.soduno-ai-modal-body label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.soduno-ai-target-label {
+  margin: 0 0 10px;
+  color: #6c757d;
+  font-size: 13px;
+}
+
+.soduno-ai-preview {
+  display: none;
+  margin-top: 12px;
+  border: 1px solid #dbe3eb;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #2f3b4a;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.soduno-ai-preview-visible {
+  display: block;
+}
+
+.soduno-ai-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  border-top: 1px solid #e6eaee;
+  padding: 12px 16px;
+}
+
+.soduno-ai-hidden {
+  display: none;
+}
